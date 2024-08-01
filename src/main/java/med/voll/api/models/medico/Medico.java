@@ -48,33 +48,7 @@ public class Medico {
     @Embedded
     private Endereco endereco;
 
-    public Long getId() {
-        return id;
-    }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public Especialidade getEspecialidade() {
-        return especialidade;
-    }
-
-    public String getCrm() {
-        return crm;
-    }
-
-    public Endereco getEndereco() {
-        return endereco;
-    }
 
     public Medico(DtoCadastroMedico dados) {
         this.nome = dados.nome();
