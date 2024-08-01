@@ -1,4 +1,4 @@
-package med.voll.api.domain.medico;
+package med.voll.api.domain.medico.repository;
 
 // Importa a interface JpaRepository do Spring Data JPA
 import med.voll.api.models.medico.Medico;
